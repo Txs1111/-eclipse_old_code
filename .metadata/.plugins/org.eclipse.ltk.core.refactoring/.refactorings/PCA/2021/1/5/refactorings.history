@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;dao.Message_Entity_Class&apos; to &apos;Message&apos;&#x0D;&#x0A;- Original project: &apos;PCA&apos;&#x0D;&#x0A;- Original element: &apos;dao.Message_Entity_Class&apos;&#x0D;&#x0A;- Renamed element: &apos;dao.Message&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Message_Entity_Class&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;dao{Message_Entity_Class.java[Message_Entity_Class" matchStrategy="1" name="Message" qualified="false" references="true" similarDeclarations="false" stamp="1611713314958" textual="false" version="1.0"/>
+</session>

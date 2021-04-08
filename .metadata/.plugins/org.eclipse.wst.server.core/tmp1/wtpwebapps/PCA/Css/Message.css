@@ -1,0 +1,123 @@
+/*------------------------------------------------------------------------------------------------
+修改人			     
+修改时间 		
+修改内容		
+版本号			 
+-------------------------------------------------------------------------------------------------*/
+@CHARSET "UTF-8";
+/*Message页面布局*/
+.Massage_whole_block{
+	width: 75%;
+	height:900px;
+	margin: 0 auto;
+}
+
+/*页面左边模块布局*/
+.Massage_whole_block .Massage_leftblock{
+	width: 20%;
+	height: 800px;
+	float: left;
+	background-color:white;
+}
+
+/*页面右边模块布局*/
+.Massage_whole_block .Massage_rightblock{
+	width: 79%;
+	height: 800px;
+	float: right;
+	background-color:white;
+}
+
+/***********************message_menu.jsp**************************/
+/*菜单栏div*/
+#message_menu{
+	width: 100%;
+	height: 112.5px;
+}
+
+/*空白头部*/
+#message_menu #head{
+	width: 100%;
+	height:37.5px;
+}
+
+/*官方详细选项样式（有点击事件）*/
+#message_menu .message_Office{
+	wdith:100%;
+	height:37.5px;
+	text-align: center;
+	line-height: 35px;
+}
+
+ .message_tips{
+	wdith:100%;
+	height:37.5px;
+	text-align: center;
+	line-height: 35px;
+}
+
+ .message_tips_v{
+	wdith:100%;
+	height:37.5px;
+	text-align: center;
+	line-height: 35px;
+}
+/*官方详细选项样式（无点击事件）*/
+#message_menu .message_Office_v{
+	wdith:100%;
+	height:37.5px;
+	text-align: center;
+	line-height: 35px;
+}
+
+/*官方详细选项点击事件*/
+#message_menu .message_Office:hover {
+	background-color: #FFCAB0;
+	color: aliceblue;
+}
+
+/*作业提醒选项样式（有点击事件）*/
+#message_menu .message_Work{
+	wdith:100%;
+	height:37.5px;
+	text-align: center;
+	line-height: 35px;
+}
+
+/*作业提醒选项样式（无点击事件）*/
+#message_menu .message_Work_v{
+	wdith:100%;
+	height:37.5px;
+	text-align: center;
+	line-height: 35px;
+}
+
+/*作业提醒选项点击事件*/
+#message_menu .message_Work:hover {
+	background-color: #FFCAB0;
+	color: aliceblue;
+	border-radius: 0 0 7px 7px;
+}
+
+/*作业提醒选项样式（无点击事件）*/
+#message_menu .message_tips_v{
+	wdith:100%;
+	height:37.5px;
+	text-align: center;
+	line-height: 35px;
+}
+
+/*作业提醒选项点击事件*/
+#message_menu .message_tips:hover {
+	background-color: #FFCAB0;
+	color: aliceblue;
+	border-radius: 0 0 7px 7px;
+}
+
+/*作业提醒选项样式（有点击事件）*/
+#message_menu .message_tips{
+	wdith:100%;
+	height:37.5px;
+	text-align: center;
+	line-height: 35px;
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="D:\eclipse_luo\Workspace"/>
+		<item value="C:\Users\25915\Desktop\StudentManagerWeb"/>
+		<item value="C:\Users\25915\Desktop\PCA"/>
+		<item value="D:\IDEA\Code\java_Code"/>
+		<item value="F:\校园文件\2020年下学年.大二上学期\计算机协会\计算机协会管理系统\Code"/>
+		<item value="F:\计算机协会管理系统\Code"/>
+		<item value="F:\编程\java\马士兵Java学习视频(更多视频关注微信公众号Java3y)\04阶段_马士兵_JDBC_MySQL简明教程_简单BBS项目课堂实录视频教程\04_简单bbs项目\source"/>
+		<item value="C:\Users\25915\Desktop\asdf"/>
+		<item value="C:\Users\25915\Desktop\新建文件夹"/>
+		<item value="C:\Users\25915\Desktop\代码位置"/>
+	</list>
+	<section name="CleanDialogSettings">
+		<item value="500" key="DIALOG_WIDTH"/>
+		<item value="true" key="TOGGLE_SELECTED"/>
+		<item value="391" key="DIALOG_HEIGHT"/>
+		<item value="710" key="DIALOG_X_ORIGIN"/>
+		<item value="260" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="NewWizardAction">
+		<item value="org.eclipse.jdt.ui.wizards.JavaProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.emf.codegen.ecore.ui.wizardCategory"/>
+			<item value="org.eclipse.jdt.ui.java"/>
+			<item value="org.eclipse.jst.j2ee.internal"/>
+			<item value="org.eclipse.wst.jsdt.ui.java"/>
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item value="656" key="DIALOG_X_ORIGIN"/>
+		<item value="316" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

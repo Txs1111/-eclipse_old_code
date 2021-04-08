@@ -1,0 +1,23 @@
+content_assist_disabled_computers=org.eclipse.jdt.ui.textProposalCategory\u0000org.eclipse.recommenders.calls.rcp.proposalCategory.templates\u0000org.eclipse.mylyn.java.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000org.eclipse.recommenders.chain.rcp.proposalCategory.chain\u0000
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="dao.MySQL_connect"><rhs name\="dao.MySQL_connect"/></lhs><lhs name\="dao.Message_Entity_Class"><rhs name\="dao.Message_Entity_Class"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.Collection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.RandomAccess"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Cloneable"><rhs name\="java.util.Date"/><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.AbstractList"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.AbstractCollection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.ArrayList"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="\u57FA\u7840\u77E5\u8BC6\u56DE\u987E.\u5BF9\u8C61.\u6D4B\u8BD5\u6784\u9020\u65B9\u6CD5\u4E2D\u53EF\u4E0D\u53EF\u4EE5\u6709void"><rhs name\="\u57FA\u7840\u77E5\u8BC6\u56DE\u987E.\u5BF9\u8C61.\u6D4B\u8BD5\u6784\u9020\u65B9\u6CD5\u4E2D\u53EF\u4E0D\u53EF\u4EE5\u6709void"/></lhs><lhs name\="\u57FA\u7840\u77E5\u8BC6\u56DE\u987E.\u5BF9\u8C61.\u8BBF\u95EE\u6743\u9650.\u79C1\u6709\u53D8\u91CF\u4E0E\u79C1\u6709\u65B9\u6CD5private"><rhs name\="\u57FA\u7840\u77E5\u8BC6\u56DE\u987E.\u5BF9\u8C61.\u8BBF\u95EE\u6743\u9650.\u79C1\u6709\u53D8\u91CF\u4E0E\u79C1\u6709\u65B9\u6CD5private"/></lhs><lhs name\="\u57FA\u7840\u77E5\u8BC6\u56DE\u987E.\u5BF9\u8C61.\u8BBF\u95EE\u6743\u9650.\u53D7\u4FDD\u62A4\u7684\u53D8\u91CF\u4E0E\u53D7\u4FDD\u62A4\u7684\u65B9\u6CD5\u5F15\u7528\u7684\u7C7B"><rhs name\="\u57FA\u7840\u77E5\u8BC6\u56DE\u987E.\u5BF9\u8C61.\u8BBF\u95EE\u6743\u9650.\u53D7\u4FDD\u62A4\u7684\u53D8\u91CF\u4E0E\u53D7\u4FDD\u62A4\u7684\u65B9\u6CD5\u5F15\u7528\u7684\u7C7B"/></lhs><lhs name\="\u57FA\u7840\u77E5\u8BC6\u56DE\u987E.\u5BF9\u8C61.\u8BBF\u95EE\u6743\u9650\u5F15\u7528\u6D4B\u8BD5\u5305.\u53D7\u4FDD\u62A4\u7684\u53D8\u91CF\u4E0E\u53D7\u4FDD\u62A4\u7684\u65B9\u6CD5\u5F15\u7528\u7684\u7C7B\u5176\u4ED6\u5305"><rhs name\="\u57FA\u7840\u77E5\u8BC6\u56DE\u987E.\u5BF9\u8C61.\u8BBF\u95EE\u6743\u9650\u5F15\u7528\u6D4B\u8BD5\u5305.\u53D7\u4FDD\u62A4\u7684\u53D8\u91CF\u4E0E\u53D7\u4FDD\u62A4\u7684\u65B9\u6CD5\u5F15\u7528\u7684\u7C7B\u5176\u4ED6\u5305"/></lhs><lhs name\="javax.servlet.http.HttpServlet"><rhs name\="Servlet.feedback"/></lhs><lhs name\="javax.servlet.GenericServlet"><rhs name\="Servlet.feedback"/></lhs><lhs name\="javax.servlet.Servlet"><rhs name\="Servlet.feedback"/></lhs><lhs name\="javax.servlet.ServletConfig"><rhs name\="Servlet.feedback"/></lhs><lhs name\="Servlet.feedback"><rhs name\="Servlet.feedback"/></lhs><lhs name\="java.util.Date"><rhs name\="java.util.Date"/></lhs><lhs name\="dao.resource_entity"><rhs name\="dao.resource_entity"/></lhs><lhs name\="dao.get_resource"><rhs name\="dao.get_resource"/></lhs><lhs name\="SpringGroup.dynamicproxy.Host"><rhs name\="SpringGroup.dynamicproxy.Host"/></lhs><lhs name\="java.lang.reflect.InvocationHandler"><rhs name\="SpringGroup.dynamicproxy.ProxyInovocationHandler"/></lhs><lhs name\="SpringGroup.dynamicproxy.ProxyInovocationHandler"><rhs name\="SpringGroup.dynamicproxy.ProxyInovocationHandler"/></lhs></history>
+content_assist_number_of_computers=24
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+fontPropagated=true
+markOccurrences=false
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.editor.tab.width=
+org.eclipse.jdt.ui.formatterprofiles.version=12
+org.eclipse.jdt.ui.javadoclocations.migrated=true
+org.eclipse.jdt.ui.text.code_templates_migrated=true
+org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.templates_migrated=true
+org.eclipse.jface.textfont=1|Consolas|12.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Consolas;
+proposalOrderMigrated=true
+spelling_locale_initialized=true
+tabWidthPropagated=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

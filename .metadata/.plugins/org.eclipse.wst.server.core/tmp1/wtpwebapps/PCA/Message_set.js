@@ -1,0 +1,9 @@
+$(document).ready(function(){
+	$('label').click(function(){
+		if($(this).children('input').is(":checked")){
+			$(this).CSS('background-color','#0080C0');
+			$(this).nextAll().CSS('background-color','#f8fbf9');
+			$(this).prevAll().CSS('background-color','#f8fbf9')
+		}
+	})
+})

@@ -1,0 +1,272 @@
+/*------------------------------------------------------------------------------------------------
+修改人
+修改内容
+修改时间
+版本号
+-------------------------------------------------------------------------------------------------*/
+/*---------------------------------------Assignment_block.jsp-----------------------------------------------*/
+a{
+	text-decoration:none;
+	color: #000000;
+}
+
+/*任务模块导航模块*/
+.Assignment_lead_block{
+	margin:0 auto;
+	float:none;
+	width: 75%;
+	height: 50px;
+	margin-bottom: 2px;
+	text-align: center;
+}
+
+/*任务模块导航模块选择按钮*/
+.Assignment_lead_block .finish{
+	border: 0px solid white;
+	width: 16.5%;
+	height: 50px;
+	text-align: center;
+	float:left;
+	border-radius: 4px;
+	line-height: 50px;
+}
+
+/*任务模块导航模块搜索区域*/
+.Assignment_lead_block .search{
+	width: 60%;
+	height: 80%;
+	float: right;
+	text-align: center;
+}
+
+/*任务模块头模块*/
+.Assignment_head_block{
+	width: 75%;
+	height: 120px;
+	margin:0 auto;
+}
+
+/*任务模块头模块文字条*/
+.Assignment_head_block .text_line{
+	width: 60%;
+	height: 23px;
+	margin-top: 2px;
+	float:left;
+	margin-left: 1%;
+	text-align: left;
+}
+.bgphoto{
+	width:10%;
+	height: 95px;
+	float:right;
+	margin-top:10px;
+	opacity:0.2;
+	margin-right: 6%;
+}
+
+/*任务模块主体区域*/
+.Assignment_body_block{
+	margin:0 auto;
+	float:none;
+	margin-top: 10px;
+	text-align: center;
+	width: 75%;
+	height:601px;
+}
+/*-----------------------------------------Assignment_unfinish.jsp/Assignment_finished.jsp-------------------------------------------------------------------*/
+.finish_first_headline{
+	height: 40px;
+	width: 100%;
+	border-radius:2px;
+	float:left;
+}
+.finish_first_contentline {
+	height: 50px;
+	width: 100%;
+	border-radius:2px;
+	float:left;
+}
+
+/*任务模块显示模块第一个头模块的第一个*/
+.finish_first_head_1{
+	width: 10%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	float:left;
+	color:white;
+}
+
+/*任务模块显示模块第一个头模块的第二个*/
+.finish_first_head_2{
+	width: 10%;
+	height: 40px;
+	float:left;
+	text-align: center;
+	line-height: 40px;
+	margin-left: 0.8%;
+	color:white;
+}
+
+/*任务模块显示模块第二个头模块*/
+.finish_secend_head{
+	width: 47%;
+	height: 40px;
+	text-align: center;
+	margin-left: 0.8%;
+	line-height: 40px;
+	float:left;
+	color:white;
+	font-size: 16px;
+}
+
+/*任务模块显示模块第三个头模块*/
+.finish_third_head{
+	float: right;
+	width: 8.5%;
+	height: 40px;
+	color:white;
+	text-align: center;
+	line-height: 40px;
+}
+
+/*任务模块显示模块第一个子模块的第一个*/
+.finish_first_1{
+	width: 10%;
+	height: 50px;
+	text-align: center;
+	float:left;
+	line-height: 50px;
+	background-color: white;
+	
+}
+
+/*任务模块显示模块第一个子模块的第二个*/
+.finish_first_2{
+	width: 10%;
+	text-align: center;
+	height: 50px;
+	float:left;
+	line-height: 50px;
+	background-color: white;
+	margin-left: 0.8%;
+	
+}
+
+/*任务模块显示模块第二个子模块*/
+.finish_secend{
+	width: 47%;
+	height: 50px;
+	float:left;
+	margin-left:0.8%;
+	background-color: white;
+	text-align: center;
+	line-height: 50px;
+}
+
+/*任务模块显示模块第三个子模块*/
+.finish_third{
+	width: 8.3%;
+	height: 50px;
+	margin-left: 8px;
+	background-color: white;
+	text-align: center;
+	line-height: 50px;
+	float: right;
+}
+/*----------------------Assignment_Details.jsp-------------------------*/
+
+/*任务详情模块*/
+.Details_whole_block{
+	width: 75%;
+	height: 690px;
+	margin:0 auto;
+	margin-top: 40px;
+}
+
+/*任务详情模块头模块*/
+.Details_whole_block .head_block{
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	float: left;
+}
+
+/*任务详情模块返回标志*/
+.Details_whole_block .head_block .symble{
+	width: 30px;
+	height: 30px;
+	margin-top: 10px;
+	margin-right: 4%;
+	float: right;
+}
+
+/*任务详情模块主体模块*/
+.Details_whole_block .body_block{
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+	background-color:#FAFAFA;
+	height: 563px;
+}
+
+/*任务详情模块主体模块小信息框*/
+.Details_whole_block .body_block .small_block{
+	width: 23.5%;
+	height: 26px;
+	float: left;
+	margin-top: 2px;
+	margin-left: 0.2%;
+}
+
+/*任务详情模块任务详细信息框*/
+.Details_whole_block .body_block .inf_block{
+	width: 95%;
+	height: 140px;
+	float: left;
+	resize: none;
+	margin-top: 4px;
+	border:0;
+	margin-left: 2.5%;
+}
+
+/*任务详情模块上传表单*/
+.Details_whole_block .body_block .foin{
+	width:100%;
+	height:350px;
+	float:left;
+}
+
+.foin_block{
+	width:95%;
+	margin-top:30px;
+	height:320px;
+	margin: 0 auto;
+
+	border-radius: 2px;
+}
+
+.foin_block_dis{
+	width:95%;
+	height:20px;
+	margin: 0 auto;
+	
+}
+
+.Details_whole_block .body_block .textarea_style{
+	resize:none;
+	width: 100%;
+	margin-top: 5px;
+	height: 200px;
+	border:0;
+}
+.Details_whole_block .body_block .submit_style{
+	margin-top:10px;
+	width:100%;
+	border:0;
+	height: 40px;
+	border-radius: 8px; 
+}
+.Details_whole_block .body_block .submit_style:HOVER {
+	opacity: 0.8;
+}

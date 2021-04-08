@@ -1,0 +1,137 @@
+package dao;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+
+/**
+ * @author Lyon 获取学习资源类
+ */
+
+public class get_resource {
+	resource_entity node = new resource_entity();
+	node = node.Node.next;
+	/**
+	 * 学习资源的构造函数
+	 */
+	public get_resource() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+	/**
+	 * 获取学习资源
+	 */
+	public void get_Resourse() {
+//		MySQL_connect con = new MySQL_connect();
+//		MySQL_connect con2 = new MySQL_connect();
+//		MySQL_connect con3 = new MySQL_connect();
+//		MySQL_connect contp = new MySQL_connect();
+//		MySQL_connect conall = new MySQL_connect();
+//		String sql = "select * from learning_resource";
+//		String sql2 = "select * from learning_resource where ifcheck=2";
+//		String sql3 = "select * from learning_resource where ifcheck=3";
+//		String sqltype = null;
+//		String sqlalltype = "select type_name from learning_resource_dictionaries  where type_name != 'NULL'";
+//		String sqlpath = null;
+//		String sqlallpath = "select path_name from learning_resource_dictionaries where path_name != 'NULL'";
+//		try {
+//			ResultSet rs = con.usercommend.executeQuery(sql);
+//			ResultSet rs2 = con2.usercommend.executeQuery(sql2);
+//			ResultSet rs3 = con3.usercommend.executeQuery(sql3);
+//			ResultSet rstype = null;
+//			ResultSet rsalltype = conall.usercommend.executeQuery(sqlalltype);
+//			while (rsalltype.next()) {
+//				all_type.add(rsalltype.getString("type_name"));
+//			}
+//			for (int i = 0; i < all_type.size(); i++) {
+//				type_number.add(0);
+//			}
+//			ResultSet rspath = null;
+//			ResultSet rsallpath = conall.usercommend.executeQuery(sqlallpath);
+//			while (rsallpath.next()) {
+//				all_path.add(rsallpath.getString("path_name"));
+//			}
+//			for (int i = 0; i < all_path.size(); i++) {
+//				path_number.add(0);
+//			}
+//			int index = 0;
+//			while (rs.next()) {
+//				// 是否检查合格- -1.已过期-0.不合格-1合格-2.提交待过期-3.提交待检查
+//				// Date date = new Date();
+//				int condition = rs.getInt("ifcheck");
+//				if (condition == -1) {
+//					// && rs.getdate() > date.getTime()
+//					die_resource += 1;
+//				} else if (condition == 0) {
+//					System.out.println("资源不合格");
+//				} else if (condition == 1) {
+//					all_resource += 1;
+//					if (true) {
+//						// 当天更新资源数
+//						new_resource += 1;
+//					}
+//				} else if (condition == 2) {
+//					chick_die_resource += 1;
+//				} else if (condition == 3) {
+//					chick_new_resource += 1;
+//				}
+//				title.add(rs.getString("title"));
+//				content.add(rs.getString("content"));
+//				ID.add(rs.getString("ID"));
+//				verification.add(rs.getString("verification"));
+//				time.add(rs.getString("time"));
+//				path.add(rs.getString("path"));
+//				type.add(rs.getString("type"));
+//				if (rs2.next()) {
+//					chick_die_title.add(rs2.getString("title"));
+//					chick_die_content.add(rs2.getString("content"));
+//					chick_die_ID.add(rs2.getString("ID"));
+//					chick_die_verification.add(rs2.getString("verification"));
+//					chick_die_time.add(rs2.getString("time"));
+//				}
+//				if (rs3.next()) {
+//					chick_new_title.add(rs3.getString("title"));
+//					chick_new_content.add(rs3.getString("content"));
+//					chick_new_ID.add(rs3.getString("ID"));
+//					chick_new_verification.add(rs3.getString("verification"));
+//					chick_new_time.add(rs3.getString("time"));
+//				}
+//				sqltype = "select * from learning_resource where type=" + rs.getString("type") + "and ifcheck = 1;";
+//				// System.out.println(sqltype);
+//				rstype = contp.usercommend.executeQuery(sqltype);
+//				rstype.next();
+//				type_name.add(rstype.getString("type_name"));
+//				for (int i = 0; i < all_type.size(); i++) {
+//					if (all_type.get(i).equals(type_name.get(index))) {
+//						type_number.set(i, type_number.get(i) + 1);
+//						// System.out.println(gr.getType_name().get(i));
+//						continue;
+//					}
+//				}
+//				sqlpath = "select * from learning_resource where path=" + rs.getString("path") + ";";
+//				// System.out.println(sqlpath);
+//				rspath = contp.usercommend.executeQuery(sqlpath);
+//				rspath.next();
+//				path_name.add(rspath.getString("path_name"));
+//				for (int i = 0; i < all_path.size(); i++) {
+//					if (all_path.get(i) == path_name.get(index))
+//						path_number.set(i, path_number.get(i) + 1);
+//				}
+//				index = index + 1;
+//			}
+//			index = 0;
+//		} catch (SQLException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+	}
+
+}

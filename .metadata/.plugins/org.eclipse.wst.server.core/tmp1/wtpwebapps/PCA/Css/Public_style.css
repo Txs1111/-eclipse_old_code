@@ -1,0 +1,422 @@
+/*------------------------------------------------------------------------------------------------
+修改人			     
+修改时间 		
+修改内容		
+版本号			 
+-------------------------------------------------------------------------------------------------*/
+
+@CHARSET "UTF-8";
+
+/*页面中心区域为75%*/
+
+
+/*区域外颜色为#F4F5F7*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/*字体*/
+
+body {}
+
+div {
+    border-radius: 1px;
+}
+
+
+/*大号字体*/
+
+.big-font {
+    font-size: 32px;
+}
+
+
+/*中号字体*/
+
+.middle-font {
+    font-size: 18px;
+}
+
+
+/*小号字体*/
+
+.small-font {
+    font-size: 14px;
+}
+
+
+/*浅色字色*/
+
+.light-font {
+    color: grey;
+}
+
+.white-font {
+    color: white;
+}
+
+
+/*头像*/
+
+.head_photo {
+    width: 70px;
+    height: 70px;
+    float: left;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+/*小头像*/
+
+.small_head_photo {
+    width: 50px;
+    height: 50px;
+    float: left;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+/*大标题*/
+
+.big-tittle {
+    height: 45px;
+    width: 100%;
+    line-height: 45px;
+    background-color: #FAFAFA;
+    border-bottom: 1px solid #E5E9EF;
+}
+
+
+/*小标题*/
+
+.small-tittle {
+    height: 30px;
+    width: 100%;
+    line-height: 30px;
+    background-color: #FAFAFA;
+    border-bottom: 1px solid #E5E9EF;
+}
+
+
+/*翻页*/
+
+.turnpage-turn {
+	width: 22.3%;
+	height: 35px;
+	line-height: 35px;
+	font-size: 28px;
+	vertical-align: middle;
+	text-align: center;
+	margin-left: 6px;
+	float: left;
+	overflow: hidden;
+	border-radius: 6px;
+	border: 0;
+    background-color: white;
+    outline: none;
+}
+
+.turnpage-number {
+	width: 12%;
+	height: 35px;
+	line-height: 30px;
+	font-size: 28px;
+	float: left;
+	margin-top: 0px;
+	margin-left: 6px;
+	text-align: center;
+	overflow: hidden;
+	border-radius: 6px;
+	border: 0;
+    background-color: white;
+    outline: none;
+}
+
+.turnpage-foin {
+	width: 40%;
+	margin:0 auto;
+	height: 40px;
+	margin-top:5px;
+}
+
+.turnpage-conntrol {
+	margin-top: 1%;
+	float: left;
+	width: 100%;
+	text-align: center;
+	height: 45px;
+}
+/*搜索*/
+
+.search-block {
+    width: 100%;
+    height: 50px;
+    float: right;
+    text-align: center;
+}
+
+.search-symble {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    text-align: center;
+    float: left;
+}
+
+.search-form {
+    margin-top: 10px;
+    margin-left: 1%;
+    float: left;
+    text-align: center;
+    width: 85%;
+    height: 30px;
+}
+
+.check_button {
+    width: 15%;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    outline: none;
+    border: 0;
+    color: white;
+    border-radius: 4px;
+}
+
+.check_button:HOVER {
+    opacity: 0.8;
+}
+
+
+/*------------------------------------------------------------------------------------------------
+淇敼浜�:鐜嬫棴鍗�
+淇敼鍐呭:灏哅essage.jsp鍜孲et.jsp涓殑妯″潡css鏂囦欢鏁村悎娣诲姞
+淇敼鏃堕棿:2020-12-28顔�
+鐗堟湰鍙�:
+-------------------------------------------------------------------------------------------------*/
+
+
+/*----------------------------------娑堟伅椤甸潰澶撮儴鏍囩鏍峰紡------------------------------------------*/
+
+#theme {
+    width: 100%;
+    height: 900px;
+}
+
+#theme_head {
+    width: 100%;
+    height: 37px;
+    border-bottom: 1px solid #E5E9EF;
+    background-color: #FAFAFA;
+}
+
+#theme_img {
+    height: 28px;
+    float: left;
+    margin-top: 4px;
+}
+
+#theme_heads {
+    line-height: 35px;
+}
+
+
+/*------------------------------Message.jsp-------------------------------*/
+
+@CHARSET "UTF-8";
+
+/***********************娑堟伅澶撮儴鏍峰紡**************************/
+
+#Message {
+    width: 100%;
+    height: 900px;
+    border-radius: 7px;
+}
+
+
+/***********************娑堟伅鏍峰紡**************************/
+
+#tidings {
+    width: 100%;
+    height: 315px;
+    float: left;
+    margin-top: 10px;
+    border-bottom: 1px solid gainsboro;
+    background-color: white;
+}
+
+#tidings_left {
+    width: 100%;
+    height: 80px;
+    float: left;
+    margin-bottom: 8px;
+}
+
+#img {
+    width: 78px;
+    height: 80px;
+    float: left;
+}
+
+#tidings_right {
+    width: 100%;
+    height: 250px;
+    float: left;
+}
+
+#head_photo {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#name {
+    width: 75%;
+    height: 80px;
+    float: left;
+}
+
+#content {
+    with: 100%;
+    height: 250px;
+    margin-bottom: 10px;
+}
+
+#function {
+    width: 96%;
+    margin: 0 auto;
+    height: 30px;
+    color: #bfbfbf;
+    width: 96%;
+}
+
+.dynamic_content_new {
+    width: 96%;
+    height: 185px;
+    margin: 0 auto;
+    margin-bottom: 12px;
+}
+
+#like {
+    width: 50px;
+    height: 20px;
+    float: left;
+}
+
+#detail {
+    width:48px;
+    height: 25px;
+    float: right;
+    margin-top: 55px;
+    margin-right: 2.5%;
+    line-height: 25px;
+    text-align: left;
+    position: relative;
+}
+
+#detail a font {
+    position: absolute;
+    top: 0px;
+}
+
+#detail_photo {
+    width: 15px;
+    height: 15px;
+    float: left;
+    margin-top: 8px;
+}
+
+#detail_text {
+    width: 60%;
+    height: 25px;
+    float: left;
+    margin-top: 5px;
+    text-align: left;
+    font-size: 10px;
+    line-height: 22px;
+    color: #bfbfbf;
+}
+
+#good {
+    width: 15px;
+    vertical-align: sub;
+}
+
+#samll {
+    font-size: 13px;
+}
+
+#samll-B {
+    font-size: 14px;
+    font-weight: 600;
+    color: #0080C0;
+    line-height: 52px;
+}
+
+#time {
+    width: 100px;
+    height: 20px;
+    float: right;
+    margin-right: -22px
+}
+
+
+/*----------------------------------按钮点击样式---------------------------------*/
+
+
+/*按钮样式*/
+
+#submit {
+    width: 100px;
+    height: 36px;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 36px;
+    float: right;
+}
+
+
+/*a标签样式*/
+
+#submit #url {
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    height: auto;
+}
+
+
+/*按钮点击事件*/
+
+#submit:hover {
+    opacity: 0.8;
+}
+
+
+/*--------------------------------------文本框样式-------------------------------------------*/
+
+
+/*昵称文本框*/
+
+#nick {
+    height: 22px;
+}
+
+
+/*点击文本框事件*/
+
+#nick:focus {
+    outline: none;
+    border: 1px solid #20A0FF;
+    border-radius: 2px;
+}

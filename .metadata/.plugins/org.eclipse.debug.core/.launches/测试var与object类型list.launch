@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/杂七杂八的玩意儿/Java/Java基础知识回顾/泛型/测试包/测试var与object类型list.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="Java基础知识回顾.泛型.测试包.测试var与object类型list"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="杂七杂八的玩意儿"/>
+</launchConfiguration>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/杂七杂八的玩意儿/src/基础知识回顾/对象/实例方法与类方法/实例方法与类方法.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="基础知识回顾.对象.实例方法与类方法.实例方法与类方法"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="杂七杂八的玩意儿"/>
+</launchConfiguration>

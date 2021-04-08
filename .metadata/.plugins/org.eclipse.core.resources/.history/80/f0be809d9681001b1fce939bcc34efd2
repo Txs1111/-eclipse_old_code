@@ -1,0 +1,147 @@
+package dao;
+
+import java.util.ArrayList;
+
+/**
+ * @author Lyon 获取学习资源类实体类
+ */
+
+public class resource_entity {
+public void Node(){
+		resource_entity next;
+	}
+	/**
+	 * 上传资源ID
+	 */
+	ArrayList<Object> ID = new ArrayList<>();
+	/**
+	 * 资源标题
+	 */
+	ArrayList<Object> title = new ArrayList<>();
+	/**
+	 * 资源内容
+	 */
+	ArrayList<Object> content = new ArrayList<>();
+	/**
+	 * 资源提取码
+	 */
+	ArrayList<Object> verification = new ArrayList<>();
+	/**
+	 * 资源提交时间
+	 */
+	ArrayList<Object> time = new ArrayList<>();
+	/**
+	 * 资源类型代号
+	 */
+	ArrayList<Object> type = new ArrayList<>();
+	/**
+	 * 资源类型名
+	 */
+	ArrayList<Object> type_name = new ArrayList<>();
+	/**
+	 * 资源类型图片地址
+	 */
+	ArrayList<Object> type_url = new ArrayList<>();
+	/**
+	 * 资源种类
+	 */
+	ArrayList<Object> path = new ArrayList<>();
+	/**
+	 * 资源种类名
+	 */
+	ArrayList<Object> path_name = new ArrayList<>();
+	/**
+	 * 资源目前状况
+	 */
+	ArrayList<Object> ifcheck = new ArrayList<>();
+
+	// ***********************************************************************************//
+
+	public ArrayList<Object> getID() {
+		return ID;
+	}
+
+	public void setID(ArrayList<Object> iD) {
+		ID = iD;
+	}
+
+	public ArrayList<Object> getTitle() {
+		return title;
+	}
+
+	public void setTitle(ArrayList<Object> title) {
+		this.title = title;
+	}
+
+	public ArrayList<Object> getContent() {
+		return content;
+	}
+
+	public void setContent(ArrayList<Object> content) {
+		this.content = content;
+	}
+
+	public ArrayList<Object> getVerification() {
+		return verification;
+	}
+
+	public void setVerification(ArrayList<Object> verification) {
+		this.verification = verification;
+	}
+
+	public ArrayList<Object> getTime() {
+		return time;
+	}
+
+	public void setTime(ArrayList<Object> time) {
+		this.time = time;
+	}
+
+	public ArrayList<Object> getType() {
+		return type;
+	}
+
+	public void setType(ArrayList<Object> type) {
+		this.type = type;
+	}
+
+	public ArrayList<Object> getType_name() {
+		return type_name;
+	}
+
+	public void setType_name(ArrayList<Object> type_name) {
+		this.type_name = type_name;
+	}
+
+	public ArrayList<Object> getType_url() {
+		return type_url;
+	}
+
+	public void setType_url(ArrayList<Object> type_url) {
+		this.type_url = type_url;
+	}
+
+	public ArrayList<Object> getPath() {
+		return path;
+	}
+
+	public void setPath(ArrayList<Object> path) {
+		this.path = path;
+	}
+
+	public ArrayList<Object> getPath_name() {
+		return path_name;
+	}
+
+	public void setPath_name(ArrayList<Object> path_name) {
+		this.path_name = path_name;
+	}
+
+	public ArrayList<Object> getIfcheck() {
+		return ifcheck;
+	}
+
+	public void setIfcheck(ArrayList<Object> ifcheck) {
+		this.ifcheck = ifcheck;
+	}
+}

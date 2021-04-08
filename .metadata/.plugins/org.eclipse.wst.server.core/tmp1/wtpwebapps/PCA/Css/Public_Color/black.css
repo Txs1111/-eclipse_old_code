@@ -1,0 +1,18 @@
+body{
+	background-color: black;
+}
+/*黑色*//*同时改变字体颜色为白色*/
+.light-color{
+	background-color: #929394;
+	color:white;
+}
+
+.normal-color{
+	background-color: #313131;
+	color:white;
+}
+
+.dark-color{
+	background-color: #000000;
+	color:white;
+}

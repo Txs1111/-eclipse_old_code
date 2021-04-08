@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/The_blue_cup/习题/疫情监测核酸/监测核酸最少用的试剂盒数.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="疫情监测核酸.监测核酸最少用的试剂盒数"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="The_blue_cup"/>
+</launchConfiguration>

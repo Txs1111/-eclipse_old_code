@@ -1,0 +1,8 @@
+package Spring.Group.aop;
+
+public class Log {
+	public void log() {
+		// TODO Auto-generated method stub
+
+	}
+}

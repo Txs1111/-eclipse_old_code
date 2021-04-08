@@ -1,0 +1,127 @@
+/*------------------------------------------------------------------------------------------------
+修改人			     
+修改时间 		
+修改内容		
+版本号			 
+-------------------------------------------------------------------------------------------------*/
+@CHARSET "UTF-8";
+/*-----------------------------------------season.jsp--------------------------------------------------------*/
+
+/*季节模块*/
+.season_whole_block {
+	width: 100%;
+	height: 70px;
+	background-color: white;
+	border-bottom: salmon;
+	float: left;
+}
+
+/*季节模块文字标题*/
+.season_whole_block .season_title {
+	margin-left: 4%;
+	margin-top: 1%;
+	font-size: 33px;
+	font-weight: 600;
+	width: 65%;
+	text-align: center;
+	float: left;
+}
+
+/*季节模块协会标志*/
+.season_whole_block .ahead_sign {
+	width: 15%;
+	height: 60px;
+	margin-left: 20px;
+	float: left;
+}
+
+/*季节模块季节图标*/
+.season_whole_block .season_area {
+	margin-right: 3%;
+	width: 10%;
+	height: 100%;
+	float: right;
+}
+
+/*----------------------------------------------head.jsp--------------------------------------------------------*/
+
+/*头部模块*/
+.head_whole_block {
+	width: 75%;
+	height: 160px;
+	margin: 0 auto;
+	color: white;
+}
+
+/*头部模块背景图片*/
+.head_whole_block .background {
+	width: 100%;
+	height: 170px;
+	float: left;
+}
+
+/*头部模块用户信息*/
+.head_whole_block .background .information {
+	width: 70%;
+	height: 70px;
+	margin-left: 3%;
+	margin-top: 3px;
+}
+/*头部模块用户等级*/
+.head_whole_block .background .level {
+	margin-left: 4.7%;
+	margin-top: 30px;
+	width: 4%;
+	height: 40px;
+
+}
+
+/*----------------------------------------------lead.jsp--------------------------------------------------------*/
+
+/*导航模块*/
+.lead_whole_block {
+	width: 75%;
+	height: 140px;
+	margin: 0 auto;
+	background-color: white;
+	margin-bottom: 14px;
+}
+
+/*导航模块div控制盒子*/
+.lead_box {
+	width: 100%;
+	height: 15px;
+	float: left;
+}
+
+/*导航模块ul标签*/
+.lead_whole_block .sign_list {
+	list-style: none;
+}
+
+/*导航模块li标签*/
+.lead_whole_block .sign_list li {
+	
+	height: 40px;
+	float: left;
+	width: 100px;
+	display: inline-block;
+	overflow: hidden;
+	border-bottom: 5px none #FFCAB0;
+	
+}
+
+/*导航模块导航图片*/
+.lead_whole_block .sign_list li .lead_symble {
+	width: 40%;
+	height: 28px;
+	float: left;
+	overflow: hidden;
+	margin-left:10px;
+}
+
+/*图片在div中的效果*/
+.lead_symble img {
+	width: 100%;
+	height: 100%;
+}

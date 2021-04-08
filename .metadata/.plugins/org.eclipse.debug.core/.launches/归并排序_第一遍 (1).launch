@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/The_blue_cup1/归并排序/归并排序/归并排序_第一遍.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="归并排序.归并排序_第一遍"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="The_blue_cup1"/>
+</launchConfiguration>

@@ -1,0 +1,48 @@
+@CHARSET "UTF-8";
+
+.rigister_tittle {
+	width: 50%;
+	height: 250px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 400px;
+	font-size: 50px;
+	color: white;
+	color: #F0F8FF;
+	font-size: 50px
+}
+
+.rigister_background {
+	margin-top: 5px;
+	width: 50%;
+	height: 315px;
+	color: white;
+	margin: 0 auto;
+}
+
+.rigister_inputs {
+	width: 75%;
+	height: 35px;
+	border-radius: 5px;
+	margin: 0 auto;
+	margin-bottom: 5px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.rigister_fonts {
+	height: 30px;
+	width: 100%;
+	text-align: center;
+	color: white;
+	line-height: 30px;
+	font-size: 20px;
+}
+
+.rigister_button {
+	width: 40%;
+	height: 45px;
+	margin: 0 auto;
+	border-radius: 15px;
+	margin-top: 5px;
+}

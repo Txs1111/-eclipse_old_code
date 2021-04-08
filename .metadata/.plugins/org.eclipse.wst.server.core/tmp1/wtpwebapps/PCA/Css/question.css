@@ -1,0 +1,273 @@
+/*------------------------------------------------------------------------------------------------
+修改人			     
+修改时间 		
+修改内容		
+版本号			 
+-------------------------------------------------------------------------------------------------*/
+@CHARSET "UTF-8";
+/* 上面部分的模块 */
+.top_background {
+	width: 75%;
+	margin-top: 10px;
+	margin: 0 auto;
+}
+
+/* 下面的全部疑问模块 */
+.all_question {
+	width: 75%;
+	height: 1200px;
+	margin: 0 auto;
+}
+/*---------------------------ask.jsp---------------------------------------*/
+/*提问的输入模块*/
+.ask_background {
+	float:left;
+	width: 100%;
+	height: 165px;
+	margin: 0 auto;
+}
+/*问题反馈栏*/
+.ask_box {
+	width: 95%;
+	height: 55px;
+	border-radius:2px;
+	margin-bottom: 32px;
+	float:right;
+	background-color:white;
+}
+/*问题反馈栏左装饰*/
+.ask_box_left {
+	width: 4%;
+	height: 55px;
+	border-radius:2px;
+	margin-bottom: 12px;
+	background-color:white;
+	float:left;
+}
+/*问题反馈标题*/
+.ask_box_txtline{
+	float:left;
+	width:30%;
+	height:35px;
+	margin-top:18px;
+	margin-left:2%;
+}
+/*问题反馈标题*/
+.ask_box_symline{
+	float:right;
+	width:10%;
+	height:35px;
+	margin-top:18px;
+	margin-right:2%;
+}
+/*选择提问类型的部分*/
+.chose_type {
+	width: 100%;
+	height: 50px;
+}
+/*提问的按钮样式*/
+.type_type {
+	width: 12%;
+	height: 50px;
+	margin-right: 0.5%;
+	float: left;
+	border: 0px solid #000000;
+}
+/*往期问题按钮样式*/
+.type_change {
+	width: 20%;
+	height: 50px;
+	float: right;
+}
+/*输入问题的问题框样式*/
+.textarea {
+	width: 100%;
+	height: 108px;
+}
+
+/*提交问题按钮样式*/
+.submit_button {
+	width: 100%;
+	height: 50px;
+	margin-bottom:20px;
+	outline: none;
+	border:0;
+	color:white;
+}
+/*导航栏头部空间*/
+.asktype_head{
+	width:100%;
+	height: 110px;
+	margin: 0 auto;
+	float:left;
+	margin-bottom: 8px;
+	margin-top: 12px;
+	border-radius:2px;
+	background-color:#FFFAF7;
+}
+/*导航栏全部问题空间*/
+.asktype_allquestion{
+	width:20%;
+	height: 50px;
+	line-height:50px;
+	float:left;
+	border: 1px solid #E5E9EF;
+	margin-top: -16px;
+	text-align:center;
+	background-color:white;
+	border-radius:4px;
+	margin-left:3%;
+}
+/*问题类型选中效果*/
+.cilck_style{
+	color:white;
+	font-weight:600;
+}
+/*问题类型未选中效果*/
+.uncilck_style{
+	color:grey;
+}
+/*导航栏我的问题空间*/
+.asktype_myquestion{
+	width:20%;
+	height: 50px;
+	margin-left:3%;
+	float:left;
+	text-align:center;
+	line-height:50px;
+	margin-top: -16px;
+	background-color:white;
+	border: 1px solid #E5E9EF;
+	border-radius:4px;
+}
+/*导航栏搜索问题空间*/
+.asktype_search{
+	width:40%;
+	margin-right:3%;
+	height: 50px;
+	border: 1px solid #E5E9EF;
+	float:right;
+	margin-top: -16px;
+	background-color:white;
+	border-radius:4px;
+}
+.type_choose_area{
+	width:52%;
+	height: 30px;
+	float:left;
+	margin-top: 31px;
+	margin-left:35px;
+}
+ .type_choose_row{
+	width:1%;
+	height: 28px;
+	line-height:30px;
+	float:left;
+	text-align: center;
+	border-bottom: 3px solid #CCCCCC;
+
+}
+.type_choose_line{
+	width:23%;
+	height: 28px;
+	line-height:30px;
+	float:left;
+	text-align: center;
+}
+.underline_show{
+	border-bottom: 3px solid #FFCAB0;
+}
+
+.underline_hide{
+	border-bottom: 3px solid #CCCCCC;
+	color:#CCCCCC;
+}
+/*-----------------------all_question.jsp---------------------------------*/
+/*问题的右侧数据*/
+.questions_middle {
+	width: 70%;
+	height: 150px;
+	margin-right: 0.5%;
+	float: left;
+}
+/*问题详情标题*/
+.questions_middle_tittle {
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	margin-bottom: 2px;
+}
+/*问题的内容*/
+.questions_middle_content {
+	width: 99.8%;
+	height: 142px;
+	background-color: white;
+	margin-bottom: 2px;
+	border: 1px solid #000000;
+}
+/*右侧评论的大框*/
+.questions_right {
+	width: 100%;
+	height: 140px;
+	float: left;
+	background-color: white;
+}
+/*评论区域*/
+.comm_block{
+	margin: 0 auto;
+	width: 96%;
+	height: 140px;
+}
+/*评论头像图片区域*/
+#comm_img {
+	width: 7%;
+	float: left;
+	height: 64px;
+	
+}
+/*评论用户名*/
+#comm_name {
+	width: 41%;
+	height: 20px;
+	margin-top:20px;
+	float: left;
+	color: #0080C0;
+}
+#comm_data {
+	width: 10%;
+	height: 10px;
+	margin-top:20px;
+	margin-right:6px;
+	float: right;
+	color: grey;
+	text-align:right;
+}
+#comm_content{
+	width: 93%;
+	height: 80px;
+	margin-top:6px;
+	float: left;
+}
+/*问题提出时间*/
+.question_user_data {
+	width: 100%;
+	height: 24%;
+	margin-bottom: 1%;
+}
+/*提问人的头像*/
+.question_user_photo {
+	width: 100%;
+	height: 50%;
+	margin-bottom: 1%;
+}
+/*提问人的姓名*/
+.question_user_name {
+	width: 100%;
+	height: 25%;
+}
+/*往期完成任务展示 翻页背景*/
+.changepages {
+	width: 100%;
+	height: 86px;
+}

@@ -1,0 +1,111 @@
+
+<%
+	/*------------------------------------------------------------------------------------------------
+	* 修改人			     
+	* 修改时间 		
+	* 修改
+	* 版本号
+	* -------------------------------------------------------------------------------------------------*/
+%>
+
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@page import="dao.*" import="java.sql.*" import="java.util.*"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<link href="Css/Public_Color/orange.css" rel="stylesheet" />
+<link href="Css/Public_style.css" rel="stylesheet" />
+<link href="Css/Homepage.css" rel="stylesheet" />
+
+</head>
+<body>
+	<div class="dynamic_body_block">
+		<%
+			dynamicDao dynamic = new dynamicDao();
+			Message dmessage = dynamic.data();
+			int times = 4;
+		%>
+		<%
+			/* System.out.println("dynamic.jsp dmessage.head_photo：" + dmessage.head_photo); */
+			for (int detaile_number = 1; detaile_number <= times; detaile_number++) {
+		%>
+		<div id="tidings">
+			<div id="tidings_left">
+				<div id="img">
+					<img src="img/head_photo/<%=dmessage.head_photo%>.jpg"
+						style="margin-top: 15px; border-radius: 25px; margin-left: 15px;"
+						class="small_head_photo">
+				</div>
+				<div id="name">
+					<font class="small-font" id="samll-B"><%=dmessage.nickiname%></font><br />
+					<a> <font class="small-font"><%=dmessage.title%></font>
+					</a>
+
+				</div>
+				<div id="detail">
+					<div id="detail_photo"></div>
+					<div id="detail_text">
+						<%
+							//request.getSession().setAttribute("head_message", dynamic.data());
+						%>
+						<a href="dynamic_details.jsp?detaili=<%=detaile_number%>>"><font
+							style="color: #bfbfbf;">详细</font></a>
+						<!-- /*
+							//1.通过request传对象
+							a.jsp：
+							Car car = new Car();
+							request.setAttribute("objectName",car);
+							try{
+							//2.这里只能以如下方式请求转发
+							request.getRequestDispatcher("b.jsp").forward(request, response);
+							}catch(){}
+							b.jsp:
+							Car c = (Car)request.getAttribute("objectName");
+							//3.通过session方式
+							在任何一个jsp中
+							Car car = new Car();
+							request.getSession().setAttribute("objectName",car);
+							然后只要访问了这个jsp，同一会话的其他任何页面都可以通过如下方式得到Car对象
+							Car c = (Car)request.getSession().getAttribute("objectName");
+							其他的还有设置在application中，不常用
+							*/ -->
+					</div>
+				</div>
+
+			</div>
+			<div id="tidings_right">
+				<div class="dynamic_content_new dinylight-color"
+					style="border-radius: 1px;">
+					<font><%=dmessage.content%></font>
+					<div class="dynamic_content_img">
+						<%
+							for (int j = 0; j < dynamic.getAllphotourl(dmessage).size(); j++) {
+						%>
+						<img src="<%=dynamic.getAllphotourl(dmessage).get(j)%>">
+						<%
+							}
+						%>
+					</div>
+				</div>
+				<div id="function">
+					<div id="time">
+						<font id="samll"><%=dmessage.psotdate%></font>
+					</div>
+					<div id="like">
+						<img src="img/example/点赞.png" id="good"> <font id="samll"><%=dmessage.like%></font>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- ######################################################## -->
+		<%
+			dmessage = dmessage.next;
+			}
+		%>
+
+	</div>
+</body>
+</html>

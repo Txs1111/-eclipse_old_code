@@ -1,0 +1,28 @@
+package 插入排序最简排序方法;
+
+import Tool.*;
+
+public class 插入排序 {
+	public static void main(String[] args) {
+		int[] arr = Create.create_arr(10);
+		Print.print_result(sort(arr));
+		Compare.if_litter_big(arr);
+	}
+
+	/**
+	 * @param arr
+	 * @return 替换swap方法
+	 */
+	public static int[] sort(int[] arr) {
+		Print.print_start(arr);
+		for (int i = 1; i < arr.length; i++) {
+			for (int j = i; j > 0; j--) {
+				Swap.swap_arr(arr, j, j - 1);
+				Print.print_arr(arr);
+				// Swap.swap_arr(arr, j, j - 1);
+			}
+
+		}
+		return arr;
+	}
+}

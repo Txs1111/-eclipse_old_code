@@ -1,0 +1,419 @@
+/*------------------------------------------------------------------------------------------------
+修改人			     
+修改时间 		
+修改内容		
+版本号			 
+-------------------------------------------------------------------------------------------------*/
+@CHARSET "UTF-8";
+/*娑撳銆夋径褑鍎楅弲顖涱攱*/
+.page_background {
+	width: 75%;
+	height:900px;
+	margin: 0 auto;
+}
+
+/*娑撶粯顢嬮弸锟� 瀹革拷*/
+.background_left {
+
+	width: 20%;
+	height: 1605px;
+	float: left;
+}
+
+/*娑撶粯顢嬮弸锟� 閸欙拷 瀵帮拷閺堢喎鐣幋鎰崲閸旓拷*/
+.background_right {
+
+	width: 79%;
+	height: 1605px;
+	float: right;
+}
+
+/*缁夘垰鍨庨崡锛勫濡�虫健*/
+.scorecard_background {
+
+	width: 100%;
+	height: 400px;
+	float: left;
+	margin-bottom: 5px;
+}
+
+/*閹烘帟顢戝婊勀侀崸锟�*/
+.rank_background {
+
+	width: 100%;
+	height: 1200px;
+	float: left;
+
+}
+/*----------------------------------------------user_points.jsp----------------------------------------------------*/
+/*缂佸鍨伴崹搴ㄥ础閿涘嫬顣绘俊顖楋拷铏仴 闁哄秴娲。锟�*/
+.scorecard_tittle {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	margin-bottom: 1px;
+	color: #ffffff;
+	border-radius: 5px 5px 0px 0px;
+}
+
+/*缂佸鍨伴崹搴ㄥ础閿涘嫬顣绘俊顖楋拷铏仴 闁轰胶澧楀畵渚�寮介敓锟�*/
+/*修改人：王旭升  
+     修改时间：2021-1-5 1：10*/
+.scorecard_date {
+	width: 100%;
+	height: 40px;
+	line-height: 30px;
+	background-color: #FFFFFF;
+}
+/*修改人：王旭升  
+     修改时间：2021-1-5 1：10*/
+.scorecard_date_b {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	background-color: #FFFFFF;
+	border-radius: 0px 0px 5px 5px;
+}
+.scorecard_date_b :hover{
+	color: #FFCAB0;
+	
+}
+/*缂佸鍨伴崹搴ㄥ础閿涘嫬顣绘俊顖楋拷铏仴 闁轰胶澧楀畵渚�寮介敓锟� 鐎归潻缂氶弲锟� 閻忕偟鍋為敓绐栧啯鍊崇紒澶涙嫹*/
+/*修改人：王旭升  
+     修改时间：2021-1-5 1：10*/
+.scorecard_date_left {
+	width: 33.33%;
+	height: 35px;
+	float: left;
+	text-align: center;
+	line-height: 35px;
+}
+/*修改人：王旭升  
+     修改时间：2021-1-5 1：10*/
+.scorecard_date_centre {
+	width: 33.33%;
+	height: 35px;
+	float: left;
+	text-align: center;
+	line-height: 35px;
+}
+/*缂佸鍨伴崹搴ㄥ础閿涘嫬顣绘俊顖楋拷铏仴 闁轰胶澧楀畵渚�寮介敓锟� 闁告瑥鍘栭弲锟� 閻忕偟鍋為敓绐栧嫭娈堕柟鐧告嫹*/
+/*修改人：王旭升  
+     修改时间：2021-1-5 1：10*/
+.scorecard_date_right {
+	width: 33.33%;
+	height: 35px;
+	float: left;
+	text-align: center;
+	background-color:white;
+	line-height: 35px;
+}
+
+/*缂佸鍨伴崹搴ㄥ础閿涘嫬顣绘俊顖楋拷铏仴 缂備胶鍘ч幃搴ｆ嫚閸曨偄鐎� 闁哄秴娲。锟�*/
+/*修改人：王旭升  
+     修改时间：2021-1-5 1：10*/
+.scorecard_synthesize_tittle {
+	width: 100%;
+	height: 50px;
+	margin-bottom: 1px;
+	text-align: center;
+	line-height: 50px;
+    margin-top: 10px;
+    border-radius: 5px 5px 0px 0px;
+    color:#ffffff;
+	
+}
+
+/*缂佸鍨伴崹搴ㄥ础閿涘嫬顣绘俊顖楋拷铏仴 缂備胶鍘ч幃搴ｆ嫚閸曨偄鐎�*/
+/*修改人：王旭升  
+     修改时间：2021-1-5 1：10*/
+.scorecard_synthesize {
+	width: 100%;
+	height: 150px;
+	margin-bottom: 1px;
+	text-align: center;
+	line-height: 150px;
+}
+/*-----------------------------rangking.jsp-----------------------------------------------------------*/
+
+/*閹烘帟顢戝婊勀侀崸锟� 閺嶅洭顣�*/
+/*修改人：王旭升  
+     修改时间：2021-1-5 1：51*/
+
+
+.rank_users {
+	width: 100%;
+	background-color: #FFFFFF;
+}
+
+.rank_user_number {
+	width: 10%;
+	height: 50px;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+	color:#bfbfbf;
+}
+
+.rank_user_name {
+	width: 45%;
+	height: 50px;
+	float: left;
+	margin-left: 0.5%;
+	line-height: 50px;
+}
+
+.rank_user_point {
+	width: 44%;
+	height: 50px;
+	float: left;
+	margin-left: 0.5%;
+	line-height: 50px;
+	color:#bfbfbf;
+}
+
+
+
+.small_tittle .ranking_img{
+	width:10px;
+	height:10px
+}
+/*----------------------------------oldwork.jsp---------------------------------*/
+/*瀵帮拷閺堢喎鐣幋鎰崲閸斺剝膩閸э拷*/
+.oldwork_head {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	margin-bottom: 2px;
+	background-color: #FAFAFA;
+    border-bottom: 1px solid #E5E9EF;
+}
+}
+
+/*瀵帮拷閺堢喎鐣幋鎰崲閸斺�崇潔缁�锟� 閼冲本娅�*/
+.oldwork_background {
+	width: 100%;
+	height: 150px;
+
+	margin-bottom: 4px;
+}
+
+/*瀵帮拷閺堢喎鐣幋鎰崲閸斺�崇潔缁�锟� 瀹革缚鏅堕弫鐗堝祦*/
+.oldwork_leftdate {
+	width: 20%;
+	height: 150px;
+	
+	float: left;
+	margin-right: 0.5%;
+}
+
+/*瀵帮拷閺堢喎鐣幋鎰崲閸斺�崇潔缁�锟� 娑擃參妫块惃鍕嚊閹拷*/
+.oldwork_middledate {
+	width: 59%;
+	height: 150px;
+	
+	float: left;
+	margin-right: 0.5%;
+}
+
+/*瀵帮拷閺堢喎鐣幋鎰崲閸斺�崇潔缁�锟� 閸欏厖鏅堕惃鍕殶閹癸拷*/
+.oldwork_rightdate {
+	width: 20%;
+	height: 150px;
+
+	float: left;
+}
+
+/*瀵帮拷閺堢喎鐣幋鎰崲閸斺�崇潔缁�锟� 娴犺濮熼弮鍫曟？*/
+.oldwork_data {
+	width: 100%;
+	height: 74px;
+
+	text-align: center;
+	line-height: 74px;
+	margin-bottom: 2px;
+}
+
+/*瀵帮拷閺堢喎鐣幋鎰崲閸斺�崇潔缁�锟� 娴犺濮熼懢宄扮繁缁夘垰鍨�*/
+.oldwork_point {
+	width: 100%;
+	height: 74px;
+
+	text-align: center;
+	line-height: 74px;
+}
+
+/*瀵帮拷閺堢喎鐣幋鎰崲閸斺�崇潔缁�锟� 娴犺濮熼梾鎯у*/
+.oldwork_level {
+	width: 100%;
+	height: 49px;
+	
+	margin-bottom: 1px;
+	float: left;
+	text-align: center;
+	line-height: 49px;
+}
+
+/*瀵帮拷閺堢喎鐣幋鎰崲閸斺�崇潔缁�锟� 娴犺濮熺猾璇茬��*/
+.oldwork_type {
+	width: 100%;
+	height: 49px;
+
+	margin-bottom: 1px;
+	float: left;
+	text-align: center;
+	line-height: 49px;
+}
+
+/*瀵帮拷閺堢喎鐣幋鎰崲閸斺�崇潔缁�锟� 娴犺濮熺拠鍕瀻*/
+.oldwork_goal {
+	width: 100%;
+	height: 50px;
+
+	float: left;
+	text-align: center;
+	line-height: 49px;
+}
+
+/*瀵帮拷閺堢喎鐣幋鎰崲閸斺�崇潔缁�锟� 缂堝銆夐懗灞炬珯*/
+.changepages {
+	width: 100%;
+	height: 86px;
+	
+}
+/*修改人：王旭升*/
+a{
+	text-decoration:none;
+	color: #000000;
+}
+.lead_block{
+	margin:0 auto;
+	float:none;
+	width: 75%;
+	height: 60px;
+	margin-bottom: 2px;
+}
+.worktype{
+	border: 1px solid lightgray;
+	width: 14%;
+	height: 100%;
+	text-align: center;
+	line-height: 60px;
+	float:left;
+}
+.search{
+	width: 57%;
+	height: 80%;
+	float: right;
+	margin-top: 10px;
+}
+.symble{
+	width: 30px;
+	height: 30px;
+	margin-top: 10px;
+	margin-left: 1%;
+	float:left;
+}
+.search_form_div{
+	margin-top: 10px;
+	margin-left: 1%;
+	width: 90%;
+	float:left;
+	height: 30px;
+	text-align: center;
+}
+.body_block{
+	margin:0 auto;
+	float:none;	
+	width: 100%;
+	height: 900px;
+}
+.work_inf{
+	width: 100%;
+	height: 320px;
+	float:left;
+	background-color: #FAFAFA;
+	margin-bottom: 10px;
+}
+.work_tittle{
+	float: left;
+	width: 86%;
+	height: 40px;
+	margin-top: 10px;
+	text-align: left;
+	overflow:hidden;
+	margin-left: 1%;
+}
+.work_username{
+	float: left;
+	width: 60%;
+	height: 20px;
+	color: blue;
+	margin-top: 35px;
+	text-align: left;
+	margin-left: 1%;
+}
+.work_maininf{
+	float: left;
+	width: 94.5%;
+	text-align: left;
+	height: 150px;
+	margin-left: 3%;
+	margin-top: 10px;
+}
+}
+.symble_like{
+	width: 30%;
+	height: 25px;
+	margin-top: 6px;
+	float: left;
+	margin-right: 1%;
+}
+.work_infline{
+	float: left;
+	width: 94.5%;
+	height: 40px;
+	text-align: left;
+	line-height: 40px;
+	margin-top: 4px;
+	margin-left: 3%;
+}
+.like_block{
+	float: right;
+	width: 10%;
+	height: 40px;
+}
+.work_inf #time{
+    width: 15.5%;
+    height: 20px;
+    float: right;
+}
+.work_inf .work_centre{
+	float:left;
+	width:60%;
+	height:90px;
+}
+.work_inf .work_right{
+	float:right;
+	width:15%;
+	height:75px;
+	margin-top:15px;
+	color: #bfbfbf;
+}
+.work_inf .work_difficulty{
+	float:left;
+	width:100%;
+	height:25px;
+}
+.work_inf .work_type{
+	float:left;
+	width:100%;
+	height:25px;
+	
+}
+.work_inf .work_goal{
+	float:left;
+	width:100%;
+	height:25px;
+}

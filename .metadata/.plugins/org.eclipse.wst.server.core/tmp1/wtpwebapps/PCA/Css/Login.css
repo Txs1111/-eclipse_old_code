@@ -1,0 +1,291 @@
+/*------------------------------------------------------------------------------------------------
+修改人			       许良
+修改时间 		  2021/1/22	
+修改内容		登录卡片布局宽度改为px，使其固定
+版本号			    0.0.1
+-------------------------------------------------------------------------------------------------*/
+* {
+    /* 设置去掉边框 */
+    margin: 0px;
+    padding: 0px;
+    /* 设置不显示滚动条 */
+}
+
+/* 登录模块位置 */
+
+.login_mokuai {
+    width: 100%;
+    height: 1000px;
+}
+
+/* 头部标注区域*/
+.ahead_sign_area{
+	width: 75%;
+	height: 80px;
+	margin-left: 20px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+/* 包裹图片的div */
+.ahead_sign_area .ahead_sign{
+	width: 65%;
+	height: 60px;
+	margin: 0 auto;
+	margin-top: 10px;
+	
+}
+
+/* 设置中间div位置 */
+.login_mokuai .body_div {
+    width: 100%;
+    height: 1200px;
+	float: left;
+	background-size:auto;
+}
+
+/* 调整位置的div */
+.login_mokuai  .position_block{
+	width: 100%;
+	height: 140px;
+}
+
+/* 提示标语 */
+.tips{
+	margin-left: 9%;
+	width: 80%;
+	height: 20px;
+	font-size: 10px;
+	margin-top: 20px;
+	text-align: center;
+	color: red;
+}
+/* 登录卡片 */
+.login_mokuai .check_div{
+	width: 360px;
+	height: 440px;
+	margin: 0 auto;
+	background-color: white;
+	border-radius: 6px;
+	border: 1px solid #C5B8B4;
+	box-shadow: grey 10px 10px 30px 5px ;//边框阴影
+}
+
+/* 小分割线 */
+.sign_borderline{
+	height: 0.5px;
+	margin: 0 auto;
+	width: 65%;
+	background-color: #F0F1F4;
+	margin-top: 10px;
+}
+
+/* 卡片主体 */
+.check_body{
+	width: 100%;
+	height: 290px;
+	float: left;
+}
+
+/* 包裹登录表单的div */
+.check_body .check_form{
+	width: 100%;
+	height: 244px;
+}
+
+/*用户名input*/
+.check_form .user_input{
+	margin-left: 9%;
+	width: 80%;
+	height: 36px;
+	border: 1px solid #CCCCCC;
+	border-radius: 2px;
+	box-shadow:inset 0px 0px 2px 0px #CCCCCC; 
+}
+
+/*密码input*/
+.check_form .psw_input{
+	margin-left: 9%;
+	margin-top: 10px;
+	width: 80%;
+	height: 36px;
+	border: 1px solid #CCCCCC;
+	border-radius: 2px;
+	box-shadow:inset 0px 0px 2px 0px #CCCCCC; 
+}
+
+/*验证码input */
+.check_form .test_input{
+	margin-left: 9%;
+	width: 35%;
+	margin-top: 10px;
+	height: 36px;
+	border: 1px solid #CCCCCC;
+	border-radius: 2px;
+	box-shadow:inset 0px 0px 2px 0px #CCCCCC; 
+}
+
+/*验证码区域*/
+.Testpc_area{
+	margin-right: 37px;
+	margin-top: 10px;	
+	width: 40%;
+	height: 50px;
+	float: right;
+}
+
+/* 提示换图片区域 */
+.Testline_area{
+	margin-right: 18px;
+	margin-top: 2px;
+	width: 34%;
+	line-height: 20px;
+	height: 20px;
+	font-size: 2px;
+	float: right;
+	color: #CCCCCC;
+}
+
+
+/*提交按钮*/
+.check_form .submit_input {
+   border: 0;
+   margin-top: 20px;
+   outline: none;
+   margin-left: 9%;
+   width: 80%;
+   height: 44px;
+   border-radius: 28px;
+   color: white; 
+   font-size: 18px;
+}
+
+/*提交按钮鼠标移入事件*/
+.submit_input:hover{
+	opacity: 0.9;
+}
+
+
+
+/* 卡片尾部 */
+.check_tail{
+	width: 100%;
+	height: 60px;
+	float: left;
+	background-color: #F7F7F7;
+}
+
+/*----------------------------------------------register.jsp--------------------------------------------------------------*/
+
+/* 注册卡片 */
+.registerCheck_div{
+	width: 360px;
+	height: 590px;
+	margin: 0 auto;
+	background-color: white;
+	margin-top:100px;
+	border-radius: 6px;
+	border: 1px solid #C5B8B4;
+	box-shadow: grey 10px 10px 30px 5px ;//边框阴影
+}
+
+
+.rigister_tittle {
+	width: 100%;
+	height: 72px;
+	margin-left: 20px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+/* 包裹图片的div */
+.rigister_tittle .ahead_sign{
+	width:47%;
+	height: 60px;
+	margin: 0 auto;
+	
+}
+
+
+.rigister_background {
+	margin-top: 5px;
+	width: 100%;
+	height: 426px;
+	color: white;
+	margin: 0 auto;
+}
+
+
+.rigister_inputs {
+	margin-left: 2%;
+	width: 80%;
+	margin-top: 10px;
+	height: 36px;
+	border: 1px solid #CCCCCC;
+	border-radius: 2px;
+	box-shadow:inset 0px 0px 2px 0px #CCCCCC; 
+}
+
+
+.rigister_fonts {
+	height: 30px;
+	width: 100%;
+	text-align: center;
+	color: white;
+	line-height: 30px;
+	font-size: 20px;
+}
+
+
+.rigister_button {
+   border: 0;
+   outline: none;
+   background-color: #FFCAB0;
+   width: 38.5%;
+   height: 44px;
+   border-radius: 28px;
+   float:left;
+   color: white; 
+   font-size: 18px;
+}
+
+.mess_input{
+	margin-left:10px;
+	width: 38.6%;
+	float:left;
+	margin-top: 10px;
+	height: 36px;
+	border: 1px solid #CCCCCC;
+	border-radius: 2px;
+	box-shadow:inset 0px 0px 2px 0px #CCCCCC; 
+}
+
+.mess_input_div{
+	margin-left:10px;
+	width: 38%;
+	float:left;
+	margin-top: 10px;
+	height: 34px;
+	border: 1px solid #CCCCCC;
+	border-radius: 2px;
+	box-shadow:inset 0px 0px 2px 0px #CCCCCC; 
+}
+/*验证码input */
+.rigister_test_input{
+	margin-left: 6.3%;
+	width: 35%;
+	margin-top: 15px;
+	height: 36px;
+	border: 1px solid #CCCCCC;
+	border-radius: 2px;
+	box-shadow:inset 0px 0px 2px 0px #CCCCCC; 
+}
+
+/*验证码区域*/
+.rigister_Testpc_area{
+	margin-right: 33px;
+	margin-top: 15px;	
+	width: 40%;
+	height: 50px;
+	float: right;
+}

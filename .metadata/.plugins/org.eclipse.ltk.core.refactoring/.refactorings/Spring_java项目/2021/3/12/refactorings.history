@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;Spring_java项目&apos;&#x0D;&#x0A;- Original project: &apos;Spring_java项目&apos;&#x0D;&#x0A;- Original element: &apos;Spring_java项目/src/测试.测试new.类里面的方法实例&apos;" description="Delete element" element1="/src&lt;测试.测试new.类里面的方法实例" element2="/src&lt;测试.测试new" element3="/src&lt;测试" elements="3" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1616166988198" subPackages="false" version="1.0"/>
+</session>

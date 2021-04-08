@@ -1,0 +1,38 @@
+/*------------------------------------------------------------------------------------------------
+修改人			     
+修改时间 		
+修改内容		
+版本号			 
+-------------------------------------------------------------------------------------------------*/
+
+.dinylight-color{
+	background-color: #FFEFE8;
+}
+ .light-color{
+	background-color: #FFCAB0;
+}
+
+.normal-color{
+	background-color: #FFA980;
+}
+
+.dark-color{
+	background-color: #FF8448;
+	color:white;
+}
+
+.font-dark-color{
+	color: #FF8448;
+}
+
+.font-normal-color{
+	color: #FFA980;
+}
+
+.font-light-color{
+	color: #FFCAB0;
+}
+
+.font-dinylight-color{
+	color: #FFEFE8;
+}

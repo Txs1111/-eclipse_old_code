@@ -1,0 +1,286 @@
+/*------------------------------------------------------------------------------------------------
+修改人			     
+修改时间 		
+修改内容		
+版本号			 
+-------------------------------------------------------------------------------------------------*/
+a{
+	text-decoration:none;
+	color: #000000;
+}
+.lead_block{
+	margin:0 auto;
+	float:none;
+	width: 75%;
+	height: 60px;
+	margin-bottom: 2px;
+}
+.worktype_chosen{
+	width: 22%;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	float:left;
+}
+.worktype_unchoosen{
+	width: 12%;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	float:left;
+	margin-top: 10px;
+	border-left: 1px solid #fafafa; 
+}
+.worktype_discribe{
+	width: 45.7%;
+	height: 25px;
+	text-align: center;
+	float:left;
+	margin-top: 35px;
+	background-color: white;
+}
+.worktype_discribe_head{
+	width: 4%;
+	height: 40px;
+	text-align: center;
+	float:left;
+	margin-top: 20px;
+}
+.worktype_discribe_shead{
+	width: 4%;
+	height: 25px;
+	text-align: center;
+	float:left;
+	margin-top: 35px;
+	margin-left: 0.2%;
+	background-color: white;
+}
+.work_bold_font{
+	font-weight: 600;
+}
+.search_area{
+	width: 40%;
+	height:48px;
+	margin-top: 10px;
+	float: right;
+}
+.body_block{
+	margin:0 auto;
+	float:none;	
+	width: 86.5%;
+	height: 900px;
+}
+.type_choose{
+	width:99.7%;
+	height: 60px;
+	float:left;
+	background-color: #fafafa;
+	margin-left:2px;
+}
+.type_choose .type_choose_area{
+	width:40%;
+	height: 28px;
+	float:left;
+	margin-top: 20px;
+	margin-left:30px;
+	border-bottom: 1px solid #CCCCCC;
+}
+.type_choose .type_choose_area .type_choose_row{
+	height: 28px;
+	line-height:30px;
+	float:left;
+	text-align: center;
+
+}
+.type_choose .type_choose_area .type_choose_line{
+	width:32.55%;
+	height: 28px;
+	line-height:30px;
+	background-color: #fafafa;
+	float:left;
+	text-align: center;
+}
+.type_choose .type_choose_area .underline_show{
+	border-bottom: 3px solid #FFCAB0;
+}
+
+.type_choose .type_choose_area .underline_hide{
+	
+	color:#CCCCCC;
+}
+.work_inf{
+	width: 100%;
+	height: 320px;
+	float:left;
+	background-color: white;
+}
+.work_tittle{
+	float: left;
+	width: 86%;
+	height: 40px;
+	margin-top: 10px;
+	text-align: left;
+	overflow:hidden;
+	margin-left: 1%;
+}
+.work_username{
+	float: left;
+	width: 60%;
+	height: 20px;
+	color: blue;
+	margin-top: 35px;
+	text-align: left;
+	margin-left: 1%;
+}
+.work_maininf{
+	float: left;
+	width: 94.5%;
+	text-align: left;
+	height: 150px;
+	margin-left: 3%;
+}
+.symble_like{
+	width: 30%;
+	height: 25px;
+	margin-top: 6px;
+	float: left;
+	margin-right: 1%;
+}
+.work_infline{
+	float: left;
+	width: 94.5%;
+	height: 40px;
+	text-align: left;
+	line-height: 40px;
+	margin-top: 4px;
+	margin-left: 3%;
+}
+.like_block{
+	float: right;
+	width: 10%;
+	height: 40px;
+}
+/*---------------------------------Work_Details.jsp------------------------------------------*/
+.details_hoelblock{
+	width: 75%;
+	margin:0 auto;
+	height: 700px;
+}
+.details_head_block{
+	width: 100%;
+	height: 90px;
+}
+.details_body_block{
+	width: 100%;
+	height: 600px;
+	margin-left: 0.5%;
+}
+.details_displayarea{
+	width: 90%;
+	height: 540px;
+	float: left;
+	margin-left: 5%;
+	margin-top: 20px;
+
+}
+.details_displayarea textarea{
+	width: 98%;
+	height: 98%;
+	margin: 1%;
+	border: 0;
+	resize: none;outline: medium;
+	overflow-y: auto;
+}
+.details_rightarea1{
+	width: 100%;
+	height: 160px;
+	float: left;
+	border-bottom: 1px solid sandybrown;
+}
+.details_rightarea2{
+	width: 100%;
+	height: 410px;
+	float: left;
+}
+
+/**********************************************backwork_details.jsp***********************************/
+.detaills_title{
+	float: left;
+    width: 94.5%;
+    text-align: left;
+    height: 100px;
+    margin-left: 3%;
+    font-size: 38px;
+    font-weight: 900;
+    margin-top: 38px;
+    color:#FFCAB0;
+    
+}
+.deatails{
+	width:75%;
+	background-color:#FFEFE8;
+    margin-top: 100px;
+    border: 2px solid#FFCAB0;
+    border-radius: 9px;
+}
+.detaills_text{
+	width: 93.5%;
+    height: 500px;
+    margin-left: 3%;
+    margin-top: 20px;
+    float: left;
+    background-color: #fafafa;
+	
+}
+.return{
+	width:30px;
+	height:30px;
+	float:right;
+	margin-top: -142px;
+    font-size: 30px;
+}
+.return_color{
+	color:#FFCAB0;
+}
+.return :hover{
+	color:#fafafa;
+}
+.submit_s{
+	margin-top:10px;
+	width:100%;
+	border:0;
+	height: 40px;
+	border-radius: 8px; 
+}
+/**************rankinglist_details.jsp************************/
+.deatails .list{
+	width: 92%;
+    height: 120px;
+    float: left;
+    margin-left: 3%;
+    border-bottom: 2px solid#E9E9E9;
+	
+}
+.list .left{
+	width: 12%;
+    height: 110px;
+    font-size: 40px;
+    line-height: 110px;
+    text-align: center;
+    float: left;
+    color: #FFCAB0;
+}
+.list .concent{
+	width: 35%;
+    height: 110px;
+    line-height: 110px;
+    margin-left: 5%;
+    float: left;
+}
+.list .right{
+	width: 12%;
+    height: 110px;
+    line-height: 110px;
+    color: #FFCAB0;
+    float: right;
+}

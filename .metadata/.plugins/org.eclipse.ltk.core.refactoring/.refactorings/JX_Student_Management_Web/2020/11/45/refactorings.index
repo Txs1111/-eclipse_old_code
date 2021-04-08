@@ -1,0 +1,13 @@
+1604718838178	Rename resource 'NewFile.html'
+1604721725839	Move file
+1604721759402	Rename compilation unit 'NewFile.java'
+1604770946340	Rename resource 'NewFile.jsp'
+1604773162276	Move 'type.jsp' to 'WEB-INF'
+1604773181529	Move 'MANIFEST.MF' to 'WEB-INF'
+1604773244076	Move 'type.jsp' to 'WebContent'
+1604773246997	Move 'MANIFEST.MF' to 'WebContent'
+1604773249069	Move 'MANIFEST.MF' to 'META-INF'
+1604777517040	Move 'mysql-connector-java-8.0.21.jar' to 'lib'
+1604784127384	Copy file
+1604785246234	Copy file
+1604786238246	Copy file

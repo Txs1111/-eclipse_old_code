@@ -1,0 +1,57 @@
+package dao;
+
+/**
+ * @author Lyon 获取学习资源类
+ */
+public class get_resource {
+	/**
+	 * 所有资源数
+	 */
+	int all_resource = 0;
+	/**
+	 * 当点更新资源数
+	 */
+	int new_resource = 0;
+	/**
+	 * 待审核的提交资源数
+	 */
+	int chick_new_resource = 0;
+	/**
+	 * 当天失效资源数
+	 */
+	int die_resource = 0;
+	/**
+	 * 待审核失效资源数
+	 */
+	int chick_die_resource = 0;
+
+	/**
+	 * 学习资源的构造函数
+	 */
+	public get_resource() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+	}
+
+	/**
+	 * 验证是否为管理员
+	 */
+	public boolean verify_Admin(String ID) {
+		return false;
+	}
+
+	/**
+	 * 获取学习资源
+	 */
+	public void get_Resourse(boolean Admin) {
+		MySQL_connect con = new MySQL_connect();
+		String sql = ;
+		con.usercommend.executeUpdate(sql);
+	}
+}

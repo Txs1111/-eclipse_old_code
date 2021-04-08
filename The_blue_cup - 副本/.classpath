@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre15.0.1"/>
+	<classpathentry kind="src" path="测试语句调用时间"/>
+	<classpathentry kind="src" path="希尔排序"/>
+	<classpathentry kind="src" path="冒泡排序"/>
+	<classpathentry kind="src" path="归并排序"/>
+	<classpathentry kind="src" path="Tool"/>
+	<classpathentry kind="src" path="LeetCode习题"/>
+	<classpathentry kind="src" path="斐波那切数列"/>
+	<classpathentry kind="src" path="习题"/>
+	<classpathentry kind="src" path="选择排序"/>
+	<classpathentry kind="src" path="插入排序"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

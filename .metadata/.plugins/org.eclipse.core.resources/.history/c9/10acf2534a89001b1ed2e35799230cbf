@@ -1,0 +1,5 @@
+package Spring.Group.aop;
+
+public class Log {
+
+}

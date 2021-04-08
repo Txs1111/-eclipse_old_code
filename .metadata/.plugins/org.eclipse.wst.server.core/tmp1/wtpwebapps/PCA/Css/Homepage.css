@@ -1,0 +1,484 @@
+/*------------------------------------------------------------------------------------------------
+修改人			     
+修改时间 		
+修改内容		
+版本号			 
+-------------------------------------------------------------------------------------------------*/
+@CHARSET "UTF-8";
+
+/*-----------------------------------------Homepage.jsp--------------------------------------------------------*/
+
+/*主页模块*/
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.Homepage_whole_block {
+	width: 75%;
+	height: 1400px;
+	margin: 0 auto;
+}
+
+/*主页动态模块位置*/
+.Homepage_whole_block .dynamic {
+	width: 71%;
+	height: 1180px;
+	float: left;
+}
+
+/*主页动态模块内容位置*/
+.Homepage_whole_block .dynamic .content {
+	width: 100%;
+	height: 1500px;
+	float: left;
+}
+
+/*主页部门卡片位置*/
+.Homepage_whole_block .apart_card {
+	width: 28%;
+	height: 190px;
+	float: right;
+}
+
+/*主页部门卡片图片*/
+.Homepage_whole_block .apart_card .card_photo {
+	width: 100%;
+	height: 159px;
+	float: left;
+	background-color: white;
+}
+
+/*主页公告模块位置*/
+.Homepage_whole_block .notice {
+	width: 28%;
+	height: 350px;
+	float: left;
+	margin-top: 50px;
+	margin-left: 1%;
+	background-color: white;
+}
+
+/*主页公告模块内容位置*/
+.Homepage_whole_block .noticecotent {
+	width: 94%;
+	height: 300px;
+	margin: 0 auto;
+	margin: 10px;
+}
+
+/*主页宠物模块位置*/
+.Homepage_whole_block .pet {
+	margin-top: 25px;
+	width: 28%;
+	height: 362px;
+	float: left;
+	margin-left: 1%;
+}
+
+/*主页日历模块位置*/
+.Homepage_whole_block .calendar {
+	margin-top: 25px;
+	width: 28%;
+	height: 330px;
+	float: left;
+	margin-left: 1%;
+	background-color: white;
+}
+
+/*----------------------------------------------------dynamic.jsp----------------------------------------------------*/
+.dynamic_body_block {
+	width: 100%;
+	height: 340px;
+}
+
+.dynamic_inf {
+	width: 100%;
+	height: 110px;
+	float: left;
+}
+
+.dynamic_tittle {
+	float: left;
+	width: 70%;
+	height: 40px;
+	margin-top: 6px;
+	text-align: left;
+	overflow: hidden;
+	margin-left: 1%;
+}
+
+.dynamic_username {
+	float: left;
+	width: 60%;
+	height: 20px;
+	color: blue;
+	margin-top: 40px;
+	text-align: left;
+	margin-left: 1%;
+}
+
+.dynamic_maininf {
+	float: left;
+	width: 94.5%;
+	text-align: left;
+	height: 350px;
+	margin-left: 3%;
+	border-top: 1px solid black;
+}
+
+.dynamic_symble_like {
+	width: 30px;
+	height: 25px;
+	margin-top: 6px;
+	float: left;
+	margin-left: 35%;
+}
+
+.dynamic_infline {
+	float: left;
+	width: 94.5%;
+	height: 40px;
+	text-align: left;
+	line-height: 40px;
+	margin-top: 4px;
+	margin-left: 3%;
+}
+
+.dynamic_like_block {
+	float: right;
+	width: 30%;
+	height: 40px;
+}
+
+/* .dynamic_content_img {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.dynamic_content_img img {
+	height: 129px;
+	max-width: 30%;
+	padding-right: 36px;
+} */
+/*.dynamic_content_img {
+	width: 100%;
+	margin-left: 40px;
+}*/
+
+/*.dynamic_content_img .dynamic_img {
+	height: 129px;
+	width: 220px;
+	float: left;
+	margin-left: 40px;
+	overflow: hidden;
+}*/
+
+/*.dynamic_content_img .dynamic_img img {
+	height: 100%;
+}*/
+
+.dynamic_content_new font {
+	width: 100%;
+	height: 48px;
+	padding-top: 5px;
+	padding-left: 40px;
+	display: flex;
+	justify-content: flex-start;
+	overflow: hidden;
+}
+
+/*--------------------------------------notice.jsp--------------------------------------*/
+
+/*公告模块*/
+.notice_whole_ul {
+	width: 100%;
+	height: 100%;
+	list-style: none;
+	margin-top: 10px;
+	overflow: hidden;
+}
+
+/*公告模块单条内容*/
+.notice_whole_ul li {
+	height: 30px;
+	width: 100%;
+	text-align: left;
+	overflow: hidden;
+	line-height: 30px;
+	border-bottom: 1px soild black;
+}
+
+/*公告模块单条内容a标签*/
+.notice_whole_ul li a {
+	padding-left: 20px;
+}
+
+/*--------------------------------------------pet.jsp-------------------------------------*/
+
+/*宠物模块图片*/
+.pet_area {
+	width: 98%;
+	height: 242px;
+	float: left;
+	margin: 1%;
+}
+
+.pet img {
+	width: 100%;
+	height: 100%;
+}
+
+.pet_sign {
+	width: 15%;
+	height: 100px;
+	background-color: white;
+	position: absolute;
+	left: 57%;
+	line-height: 100px;
+	top: 950px;
+	border: 1px solid black;
+	border-radius: 15px;
+}
+
+/*--------------------------------------------calendar.jsp--------------------------------*/
+
+/*日历模块*/
+.calendar_whole_block {
+	width: 100%;
+	height: 260px;
+	margin-top: 7px;
+	margin-left: 2%;
+}
+
+/*日历模块星期区域*/
+.calendar_whole_block ul .week {
+	margin-top: 1px;
+	border-bottom: dotted black;
+	background-color: #fafafa;
+}
+
+/*日历模块每个框框区域*/
+.calendar_whole_block ul li {
+	width: 13%;
+	height: 40px;
+	border: 1px solid #FAFAFA;
+	color: gray;
+	margin-top: -1px;
+	text-align: center;
+	line-height: 40px;
+	list-style-type: none;
+	float: left;
+}
+
+/*日历模块今日li标签*/
+.calendar_whole_block ul .today_li {
+	color: white;
+}
+
+/*日历模块签到按钮*/
+.calendar_whole_block .signup {
+	width: 96%;
+	margin-top: 3px;
+	height: 30px;
+	color: white;
+	outline: none;
+	border: 0;
+	border-radius: 4px;
+}
+
+/*-----------------------------------dynamic_details.jsp-----------------------------------------------*/
+.dynamic_details_head_block {
+	width: 86.6%;
+	height: 60px;
+	line-height: 60px;
+	text-align: left;
+	margin: 0 auto;
+	float: none;
+}
+
+.dynamic_details_symble {
+	width: 30px;
+	height: 30px;
+	margin-top: 10px;
+	margin-right: 30px;
+	text-align: center;
+	float: right;
+}
+
+.dynamic_details_body_block {
+	margin: 0 auto;
+	float: none;
+	width: 86.6%;
+	text-align: center;
+	height: 900px;
+}
+
+.dynamic_details_inf {
+	width: 100%;
+	height: 520px;
+	text-align: center;
+	margin-top: 4px;
+	float: left;
+}
+
+.dynamic_details_tittle {
+	float: left;
+	width: 86%;
+	height: 40px;
+	margin-top: 10px;
+	text-align: left;
+	margin-left: 1%;
+}
+
+.dynamic_details_username {
+	float: left;
+	width: 60%;
+	height: 20px;
+	color: blue;
+	margin-top: 35px;
+	text-align: center;
+	text-align: left;
+	margin-left: 1%;
+}
+
+.dynamic_details_maininf {
+	float: left;
+	width: 94.5%;
+	text-align: left;
+	height: 350px;
+	margin-left: 3%;
+}
+
+.dynamic_details_symble_like {
+	width: 25px;
+	height: 25px;
+	margin-top: 6px;
+	float: right;
+	text-align: center;
+	margin-right: 2px;
+}
+
+.dynamic_details_infline {
+	float: left;
+	width: 94.5%;
+	height: 40px;
+	text-align: left;
+	line-height: 40px;
+	margin-top: 4px;
+	margin-left: 3%;
+}
+
+.dynamic_details_like_block {
+	float: right;
+	width: 20%;
+	margin-right: 3%;
+	text-align: center;
+	height: 40px;
+}
+
+/*-----------------------------------Office.sjsp-----------------------------------------------*/
+.fenge {
+	height: 2px;
+}
+
+.details {
+	width: 75%;
+	margin: 20px auto;
+}
+
+/* #######内容模块########## */
+.detail_content {
+	width: 75%;
+	margin: 0px auto;
+	margin-left: 10px;
+	float: left;
+	height: 830px;
+	background: #FFEFE8;
+	border-radius: 2px;
+}
+
+/* 标题目录 */
+.detail_content .title {
+	margin: 10px 0px;
+	margin-bottom: 0px;
+	float: left;
+}
+
+/* 分隔符 */
+.detail_content .separator {
+	text-align: center;
+	margin-left: 3%;
+	float: left;
+}
+
+/* 头部信息 */
+.detail_content .head {
+	width: 100%;
+	height: 110px;
+	position: relative;
+	float: left;
+}
+
+/* 头部标题 */
+.detail_content .head .title {
+	margin: 20px 10px;
+}
+
+/* 头部昵称 */
+.detail_content .head .nickname {
+	position: absolute;
+	top: 75px;
+	left: 10px;
+}
+
+/* 头部时间 */
+.detail_content .head .nickname .time {
+	padding-left: 10px;
+}
+
+/* 内容 */
+.detail_content .content {
+	width: 98%;
+	height: 600px;
+	overflow-y: scroll;
+	background-color: rgba(0, 0, 0, 0.11);
+	margin-left: 1%;
+	float: left;
+}
+
+.detail_content #function {
+	margin-top: 20px;
+	float: left;
+	color: #000;
+}
+
+/* ##########目录模块############# */
+.detail_list {
+	width: 23%;
+	overflow-y: scroll;
+	height: 700px;
+	margin: 0 auto;
+	float: right;
+	background: #FFA980;
+	border-radius: 2px;
+}
+
+.detail_list .title {
+	text-align: center;
+	line-height: 40px;
+	height: 40px;
+	background-color: #FF8448;
+}
+
+.detail_list .list ul li {
+	margin: 10px 20px;
+	list-style: none;
+}
+
+.detail_list .list ul .xz {
+	text-decoration: underline;
+	color: #ffffff;
+	font-weight: 600;
+}
